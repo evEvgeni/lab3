@@ -1,0 +1,53 @@
+
+.main-title {
+    color: red;
+}
+
+.link {
+    color: green;
+}
+
+.special-link {
+    color: blue;
+}
+
+.nav-list li:last-child .link {
+    color: yellow;
+}
+
+#first-post p {
+    color: orange;
+}
+
+.post:not(#first-post) p {
+    color: purple;
+}
+
+.widget h3 {
+    color: pink;
+}
+
+.color-list li:first-child {
+    color: gray;
+}
+
+.color-list li:nth-child(2) {
+    color: brown;
+}
+
+.highlighted {
+    background-color: red;
+    color: black;
+}
+
+.important-widget .note {
+    color: maroon;
+}
+
+#name::placeholder {
+    color: white;
+}
+
+.submit-btn {
+    color: black;
+}
